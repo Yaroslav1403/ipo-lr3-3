@@ -19,4 +19,5 @@ else:
         season = "Осень"
     elif (month == 12 and day >= 1) or (month in [1, 2]) or (month == 2 and day < 1):
         season = "Зима"
+#Вывод результата
 print(f"Дата: {day}/{month} - это {season}")
